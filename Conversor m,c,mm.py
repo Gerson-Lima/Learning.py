@@ -1,0 +1,5 @@
+m = (float(input('Digite um valor em metros:')))
+c = (m*100)
+mm = (m*1000)
+print('O valor digitado convertido em centímetros, é {}'.format(c), end=' → ')
+print('E convertido em milímetros é exatamente {}'.format(mm))

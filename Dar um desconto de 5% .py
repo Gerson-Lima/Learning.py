@@ -1,0 +1,5 @@
+p = (float(input('Digite um valor para aplicar 5% de desconto no seu preço total:')))
+desc = (p*(5/100))
+print('O valor do desconto, fica: R${} a menos do valor total.'.format(desc))
+novovlr = (p-desc)
+print('O novo valor do produto, com o desconto de 5% aplicado, fica: R${} reais.'.format(novovlr))
